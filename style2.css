@@ -1,12 +1,38 @@
 .card{
-    width: 350px;
+    width: 450px;
+}
+.card-body{
+    width: 450px;
     height: 350px;
+    padding: 0%;
     
 }
-.card-img-top{
+.img-thumbnail{
     height: 100%;
+    width: 100%;
+    padding: 0%;
+    border-radius: 0%;
 }
 #contenedor{
     align-items: center;
     height: 70px;
+}
+#padre > div{
+    display: flex;
+    justify-content: center;
+}
+.card-header , .card-footer{
+    background-color: white;
+}
+.card-header{
+    padding: 0 16px;
+}
+#num{
+    padding: 4px;
+    display: flex;
+    justify-content: end;
+}
+#title{
+    display: flex;
+    align-items: center;
 }
