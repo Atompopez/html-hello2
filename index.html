@@ -16,7 +16,7 @@
           <a class="navbar-brand"><b>Instagram</b></a>
         </div>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
               <b>Create a new Post</b>
             </button>
             
@@ -64,45 +64,134 @@
       </div>
     </nav>
   
-    <div class="d-grid gap-2 d-md-flex justify-content-md-center" id="contenedor">
-      <i class="bi bi-grid-3x3"></i>
-      <i class="bi bi-square"></i>
-    </div>
-
-    <div class="row row-cols-1 row-cols-md-3 g-2">
-      <div class="col">
-        <div class="card">
-          <img src="1.jpg" class="card-img-top" alt="1">
+    <div class="d-flex flex-column">
+      <nav class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+        <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+          <i class="bi bi-grid-3x3"></i>
+        </a>
+        <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">
+          <i class="bi bi-square"></i>
+        </a>
+      </nav>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="row row-cols-1 row-cols-md-3 g-2">
+            <div class="col">
+              <div class="cards">
+                <img src="1.jpg" class="card-img-top" alt="1">
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards">
+                <img src="2.jpg" class="card-img-top" alt="2">
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards">
+                <img src="3.jpg" class="card-img-top" alt="3">
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards">
+                <img src="4.jpg" class="card-img-top" alt="4">
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards">
+                <img src="5.jpg" class="card-img-top" alt="5">
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards">
+                <img src="6.jpg" class="card-img-top" alt="6">
+              </div>
+            </div>
+            <div class="col">
+              <div class="cards">
+                <img src="7.jpg" class="card-img" alt="7">
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="2.jpg" class="card-img-top" alt="2">
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+          <div class="row row-cols-1 row-cols-md-1 g-2" id="padre">
+            <div class="col d-flex justify-content-center">
+              <div class="card">
+                <div class="card-header">
+                  <div class="row">
+                    <div class="col-10"><h4>Having a blast at the amusement park!</h4></div>
+                    <div class="col-2 d-flex justify-content-end p-1">
+                      <p class="small">11/23</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body p-0">
+                  <img src="1.jpg" class="img-thumbnail p-0" alt="img-thumbnail">
+                </div>
+                <div class="card-footer">
+                  <h6 class="text">204 Like</h6>
+                  <h6 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <div class="card">
+                <div class="card-header">
+                  <div class="row">
+                    <div class="col-10"><h4>Having a blast at the amusement park!</h4></div>
+                    <div class="col-2 d-flex justify-content-end p-1">
+                      <p class="small">11/23</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body p-0">
+                  <img src="2.jpg" class="img-thumbnail p-0" alt="img-thumbnail">
+                </div>
+                <div class="card-footer">
+                  <h6 class="text">204 Like</h6>
+                  <h6 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <div class="card">
+                <div class="card-header">
+                  <div class="row">
+                    <div class="col-10"><h4>Having a blast at the amusement park!</h4></div>
+                    <div class="col-2 d-flex justify-content-end p-1">
+                      <p class="small">11/23</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body p-0">
+                  <img src="3.jpg" class="img-thumbnail p-0" alt="img-thumbnail">
+                </div>
+                <div class="card-footer">
+                  <h6 class="text">204 Like</h6>
+                  <h6 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex justify-content-center">
+              <div class="card">
+                <div class="card-header">
+                  <div class="row">
+                    <div class="col-10"><h4>Having a blast at the amusement park!</h4></div>
+                    <div class="col-2 d-flex justify-content-end p-1">
+                      <p class="small">11/23</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body p-0">
+                  <img src="4.jpg" class="img-thumbnail p-0" alt="img-thumbnail">
+                </div>
+                <div class="card-footer">
+                  <h6 class="text">204 Like</h6>
+                  <h6 class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                </div>
+              </div>
+            </div>  
         </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="3.jpg" class="card-img-top" alt="3">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="4.jpg" class="card-img-top" alt="4">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="5.jpg" class="card-img-top" alt="5">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="6.jpg" class="card-img-top" alt="6">
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="7.jpg" class="card-img" alt="7">
         </div>
       </div>
     </div>

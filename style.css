@@ -1,7 +1,29 @@
-.card > img{
+.cards{
     height: 350px;
 }
-#contenedor{
-    align-items: center;
-    height: 35px;
+.cards > img{
+    height: 100%;
+}
+.card{
+    width: 450px;
+}
+.card-body{
+    width: 450px;
+    height: 350px;
+    
+}
+.img-thumbnail{
+    height: 100%;
+    width: 100%;
+    border-radius: 0%;
+}
+.card-header , .card-footer{
+    background-color: white;
+}
+.nav-pills {
+    --bs-nav-pills-link-active-color: none;
+    --bs-nav-pills-link-active-bg: none;
+}
+.dropdown-menu[data-bs-popper] {
+    left: -100px;;
 }
